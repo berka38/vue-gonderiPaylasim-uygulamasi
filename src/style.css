@@ -1,0 +1,215 @@
+.page404{
+  text-align: center;
+  color: white;
+}
+
+.page404_title{
+  font-size: 10rem;
+  opacity: 0.7;
+}
+a{
+  color: white;
+}
+.nav{
+  position: relative;
+  border: 1px solid black;
+  background-color: blue;
+  list-style-type: none;
+  height:10rem;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-items{
+  margin: 1%;
+}
+
+.nav-item{
+  position: relative;
+  left: 7%;
+  
+  color: white;
+  border: 10px red solid;
+  border-radius: 3px;
+  background-color: red;
+  z-index: 2;
+}
+
+.homeMain{
+  position: relative;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: wheat;
+  width: 80%;
+  
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.mainFlex{
+  display: flex;
+  flex-direction: column;
+}
+.mainCard{
+  border: 1px black solid;
+  background-color: black;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  color: white;
+  
+  height: 20rem;
+}
+
+.login{
+  position: relative;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: white;
+  width: 50%;
+  height: 450px;
+  margin-left: 30%;
+  top: 125px;
+  background-color: rgb(50, 50, 50);
+}
+
+.baslık{
+  position: relative;
+  left: 10%;
+  color: white;
+}
+
+.btn{
+  position: relative;
+  border: 1px black;
+  top: 50px;
+  left: 15%;
+  width: 70%;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+}
+
+.usr-txt{
+  position: relative;
+  top: 30%;
+  left:10%;
+  color: white;
+}
+
+.usr-inpt{
+  position: relative;
+  border: 1px black;
+  border-radius: 5px;
+  width: 80%;
+  height: 30px;
+  top: 5px;
+  left: 10%;
+  box-shadow: 5px 5px;
+}
+
+.psw-txt{
+  position: relative;
+  top: 20%;
+  left:10%;
+  color: white;
+}
+
+.psw-inpt{
+  position: relative;
+  border: 1px black;
+  border-radius: 5px;
+  width: 80%;
+  height: 30px;
+  top: 0px;
+  left: 10%;
+  box-shadow: 5px 5px;
+}
+
+.kurum-baslık{
+  position: relative;
+  top: 60px;
+  left: 175px;
+  color: white;
+  opacity: 0.7;
+}
+
+.kurum-acıklama{
+  position: relative;
+  top: 70px;
+  left: 110px;
+  color: white;
+  opacity: 0.7;
+}
+
+
+@media screen and (min-width:700px) {
+  .flex{
+      display: flex;
+      flex-direction: row;
+  }
+  .nav-item{
+      position: relative;
+      left: 90%;
+      bottom: 3rem;
+      color: white;
+      border: 10px red solid;
+      border-radius: 3px;
+      background-color: red;
+      z-index: 2;
+  }
+
+  .nav{
+      position: relative;
+      border: 1px solid black;
+      background-color: blue;
+      list-style-type: none;
+      height:5rem;
+  }
+
+  .mainFlex{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .mainCard{
+      position: relative;
+      border: 1px black solid;
+      background-color: black;
+      margin: 2%;
+      width: 300px;
+      text-align: center;
+      color: white;
+
+      height: 20rem;
+  }
+
+  .login{
+      position: relative;
+      border: solid 1px black;
+      border-radius: 10px;
+      background-color: white;
+      width: 40%;
+      max-width: 30%;
+      height: 450px;
+      margin-left: 40%;
+      top: 125px;
+      background-color: rgb(50, 50, 50);
+  }
+}
+
+@media screen and (min-width:900px) { 
+  .login{
+      position: relative;
+      border: solid 1px black;
+      border-radius: 10px;
+      background-color: white;
+      width: 30%;
+      height: 450px;
+      margin-left: 35%;
+      top: 125px;
+      background-color: rgb(50, 50, 50);
+  }
+}
